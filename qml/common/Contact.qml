@@ -6,12 +6,12 @@ Rectangle {
     property string contactPresence
     property string avatarUrl
     property bool online
-    property var backgroundColor: String("#EBEDEE")
-    property var separatorColor: String("#DDE0DF")
+    property color backgroundColor: "#EBEDEE"
+    property color separatorColor: "#DDE0DF"
 
-    property var offlineColor: String("#FF645F")
-    property var onlineColor: String("#5ABE50")
-    property var presenceTextColor: String("#8D8E8E")
+    property color offlineColor: "#FF645F"
+    property color onlineColor: "#5ABE50"
+    property color presenceTextColor: "#5B5B5B"
 
     Item {
         id: avatarItem

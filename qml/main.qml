@@ -11,7 +11,7 @@ ApplicationWindow {
 
     visible: true
 
-    title: qsTr("IM list QML example")
+    title: qsTr("QML IM Roster")
     color: "white"
 
     TabView {

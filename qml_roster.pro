@@ -1,4 +1,4 @@
-TARGET = im_list_example
+TARGET = qml_roster
 QT += core gui qml quick
 CONFIG += c++11
 

@@ -4,9 +4,9 @@ import "common"
 
 Rectangle {
     id: contactList
-    property var background: String("#EBEDEE")
-    property var highlightHover: String("#DDE0DF")
-    property var highlightSelection: String("#757676")
+    property color background: "#EBEDEE"
+    property color highlightHover: "#DDE0DF"
+    property color highlightSelection: "#8D8E8E"
     color: background
     clip: true
 
@@ -46,10 +46,7 @@ Rectangle {
                 onClicked: {
                     listView.currentIndex = index
                     contactList.currentContactChange(contactsModel.get(index).id)
-                }
-
-                onDoubleClicked:{
-                    console.log(contactsModel.get(index).id, 'double clicked');
+                    console.log(contactsModel.get(index).id, 'clicked');
                 }
             }
         }
